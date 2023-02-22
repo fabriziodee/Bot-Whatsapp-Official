@@ -25,9 +25,9 @@ import { fileURLToPath } from "url";
 import moment from "moment-timezone";
 
 /*============= WAKTU =============*/
-let wibh = moment.tz("Asia/Jakarta").format("HH");
-let wibm = moment.tz("Asia/Jakarta").format("mm");
-let wibs = moment.tz("Asia/Jakarta").format("ss");
+let wibh = moment.tz("Central European Standard Time").format("HH");
+let wibm = moment.tz("Central European Standard Time").format("mm");
+let wibs = moment.tz("Central European Standard Time").format("ss");
 let wktuwib = `${wibh} H ${wibm} M ${wibs} S`;
 
 let d = new Date(new Date() + 3600000);
@@ -65,14 +65,14 @@ global.pdana = "-"; //dana
 global.povo = "-"; //ovo
 global.pgopay = "-"; //gopay
 global.plinkaja = "-"; //link aja
-global.ppulsa = "6289503433262"; //telkomsel
-global.ppulsa2 = "6281378163495 ( 20% Bonus )"; // kalau ada kartu lain isi aja
+global.ppulsa = "393518398856"; //telkomsel
+global.ppulsa2 = "393518398856 ( 20% Bonus )"; // kalau ada kartu lain isi aja
 global.psaweria = "-";
 
 /*============== NOMOR ==============*/
-global.nomorbot = "6282172622047";
-global.nomorown = "6289503433262";
-global.ageowner = "2011-01-13";
+global.nomorbot = "393518398856";
+global.nomorown = "393518398856";
+global.ageowner = "1997-10-23";
 global.namebot = "「 BLUECKKN BOT ⁩㊣ 」";
 global.nameown = "BLUECKKN";
 
@@ -86,8 +86,8 @@ global.lolkey = "e54205a4ca2caa368cc067bb"; // PUNYA WAHID  8e66d0934cf741bfd218
 
 /*============== STAFF ==============*/
 global.owner = [
-  ["6285280808438", "🗿", true],
-  ["6289503433262", "BLUE CKKN", true],
+  ["393518398856", "🗿", true],
+  ["393518398856", "BLUE CKKN", true],
 ];
 
 global.mods = []; // Want some help?
